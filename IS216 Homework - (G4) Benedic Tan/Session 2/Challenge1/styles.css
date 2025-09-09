@@ -1,0 +1,142 @@
+/* styles.css - Challenge #1 (Skeleton) */
+
+* {
+    margin: 0;    
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+    color: chocolate;
+}
+
+.container {
+    margin: auto;
+    max-width: 800px;
+    padding: 50px;
+    text-align: center;
+}
+
+.site-header {
+    font-size: 40px;
+    font-weight: 50;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    color: #e40f56;
+
+}
+
+/* .site-header .park-name {
+    color: red;
+} */
+
+.site-header .tagline{
+    color: grey;
+    font-style: italic;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#mascot-image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.actions {
+    /* display: flex; */
+    text-align: center;
+}
+
+.buy-tickets {
+    background-color: greenyellow;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 10px aqua;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all 200ms ease;
+    /* margin: 50px; */
+    /* justify-content: center;
+    align-items: center;    */
+    
+    /*
+    box-shadow: offset-x offset-y blur-radius spread-radius color;
+
+    offset-x: How far the shadow moves left or right
+
+    Positive number → shadow moves right
+
+    Negative number → shadow moves left
+
+
+
+    offset-y: How far the shadow moves up or down
+
+    Positive number → shadow moves down
+
+    Negative number → shadow moves up
+
+
+
+    blur-radius: How blurry or soft the shadow looks
+
+    Bigger number → more blurry (soft edges)
+
+    Smaller number (or 0) → sharp edges
+
+
+
+    spread-radius: How big or small the shadow is
+
+    Positive number → shadow gets bigger
+
+    Negative number → shadow shrinks
+
+
+
+    color: The color of the shadow (usually black or gray, but can be any color)
+    */
+
+
+}
+
+.make-donation {
+    background-color: blue;
+    padding: 10px 60px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 10px rgb(233, 38, 83);
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all 200ms ease;
+    /* margin: 50px; */
+    /* justify-content: center;
+    align-items: center;    */
+}
+
+.buy-tickets:hover {
+    background-color: green;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.make-donation:hover {
+    background-color: darkblue;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
